@@ -1,0 +1,150 @@
+.flow {
+  display: grid;
+  gap: var(--space-l);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.flow li {
+  display: grid;
+  gap: var(--space-xs);
+  padding-top: var(--space-m);
+  border-top: 1.5px solid rgba(222, 226, 218, 0.35);
+}
+
+.stage {
+  justify-self: start;
+  padding: 0.2rem 0.8rem;
+  border-radius: 999px;
+  background: var(--blush);
+  color: var(--olive);
+  font-size: var(--step--1);
+  font-weight: 700;
+}
+
+.flow p {
+  color: rgba(222, 226, 218, 0.85);
+  max-width: 32rem;
+}
+
+.knowSection {
+  background: var(--sage);
+}
+
+.knowGrid {
+  display: grid;
+  gap: var(--space-l);
+  align-items: start;
+}
+
+.knowPhoto {
+  display: none;
+}
+
+.know {
+  display: grid;
+  gap: var(--space-m) var(--space-l);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.know li {
+  display: grid;
+  gap: 0.3rem;
+  align-content: start;
+  justify-items: start;
+}
+
+.know h3 {
+  font-family: var(--font-body);
+  font-size: var(--step-1);
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.know p {
+  color: var(--text-muted);
+}
+
+.other {
+  display: grid;
+  gap: var(--space-s);
+}
+
+.otherLink {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: var(--space-m);
+  align-items: center;
+  padding: var(--space-s);
+  border: 1.5px solid rgba(56, 61, 49, 0.2);
+  border-radius: var(--radius-m);
+  text-decoration: none;
+  transition: border-color 0.25s ease, background-color 0.25s ease;
+}
+
+.otherLink:hover {
+  border-color: var(--olive);
+  background: var(--white);
+}
+
+.otherLink img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--radius-s);
+}
+
+.otherLink span {
+  display: grid;
+  gap: 0.2rem;
+  color: var(--text-muted);
+}
+
+.otherLink strong {
+  font-family: var(--font-heading);
+  font-size: var(--step-2);
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--olive);
+}
+
+@media (min-width: 768px) {
+  .flow {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .know {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .other {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .otherLink {
+    grid-template-columns: 140px 1fr;
+  }
+}
+
+@media (min-width: 900px) {
+  .knowGrid {
+    grid-template-columns: 1fr 2fr;
+    gap: var(--space-xl);
+  }
+
+  .knowPhoto {
+    display: block;
+    margin-top: var(--space-l);
+    overflow: hidden;
+    border-radius: var(--radius-m);
+  }
+
+  .knowPhoto img {
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    scale: 1.12;
+  }
+}

@@ -1,0 +1,43 @@
+.intro {
+  padding-block: var(--space-section);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-l);
+  align-items: center;
+}
+
+.copy {
+  display: grid;
+  gap: var(--space-m);
+  justify-items: start;
+}
+
+.copy h1 {
+  font-size: var(--step-4);
+  max-width: 14ch;
+}
+
+.img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: var(--radius-m);
+}
+
+@media (min-width: 768px) {
+  .withImage .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .img {
+    aspect-ratio: 5 / 4;
+  }
+}
+
+@media (min-width: 900px) {
+  .withImage .grid {
+    gap: var(--space-xl);
+  }
+}

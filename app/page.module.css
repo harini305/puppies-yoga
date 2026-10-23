@@ -1,0 +1,299 @@
+/* What it is */
+.intro {
+  background: var(--sage);
+}
+
+.introGrid {
+  display: grid;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.introMedia {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  padding-bottom: var(--space-l);
+}
+
+.introImg {
+  width: 86%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius-m);
+}
+
+.introInset {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 38%;
+  border: 6px solid var(--sage);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+}
+
+.introInset img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.introCopy {
+  display: grid;
+  gap: var(--space-m);
+  justify-items: start;
+}
+
+.facts {
+  display: grid;
+  gap: var(--space-s);
+  width: 100%;
+  margin: var(--space-2xs) 0;
+}
+
+.facts div {
+  padding-top: var(--space-s);
+  border-top: 1.5px solid var(--olive);
+}
+
+.facts dt {
+  font-family: var(--font-heading);
+  font-size: var(--step-2);
+  line-height: 1.1;
+}
+
+.facts dd {
+  margin: 0.3rem 0 0;
+  color: var(--text-muted);
+  font-size: var(--step--1);
+}
+
+/* Rescue */
+.rescueGrid {
+  display: grid;
+  gap: var(--space-xl);
+  align-items: center;
+}
+
+.rescueCopy {
+  display: grid;
+  gap: var(--space-m);
+  justify-items: start;
+}
+
+.rescueCopy h2 {
+  max-width: 17ch;
+}
+
+.rescueCopy p {
+  max-width: 34rem;
+  color: rgba(222, 226, 218, 0.88);
+}
+
+.rescueMedia {
+  position: relative;
+  padding-bottom: var(--space-xl);
+}
+
+.rescueMain {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: var(--radius-m);
+}
+
+.rescueSmall {
+  position: absolute;
+  left: 6%;
+  bottom: 0;
+  width: 40%;
+  border: 6px solid var(--olive);
+  border-radius: var(--radius-m);
+  overflow: hidden;
+}
+
+.rescueSmall img {
+  aspect-ratio: 5 / 4;
+  object-fit: cover;
+}
+
+/* Locations */
+.locGrid {
+  display: grid;
+  gap: var(--space-xl) var(--space-m);
+}
+
+.loc {
+  display: grid;
+  gap: var(--space-s);
+  align-content: start;
+  justify-items: start;
+}
+
+.locLink {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-m);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.locImg {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  transition: scale 0.8s var(--ease-out);
+}
+
+.locLink:hover .locImg {
+  scale: 1.04;
+}
+
+.locLabel {
+  position: absolute;
+  inset: auto 0 0 0;
+  display: grid;
+  gap: 0.15rem;
+  padding: var(--space-l) var(--space-m) var(--space-m);
+  background: linear-gradient(to top, rgba(56, 61, 49, 0.82), rgba(56, 61, 49, 0));
+  font-weight: 500;
+}
+
+.locName {
+  font-family: var(--font-heading);
+  font-size: var(--step-3);
+  line-height: 1;
+}
+
+.locBlurb {
+  max-width: 34rem;
+  color: var(--text-muted);
+}
+
+/* Moments */
+.moments {
+  background: var(--sage);
+  padding-bottom: var(--space-section);
+}
+
+/* Track starts on the same line as the container content; snap uses the same inset. */
+.momentsViewport {
+  --strip-inset: var(--gutter);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-inline: var(--strip-inset);
+  scroll-padding-inline: var(--strip-inset);
+}
+
+.momentsViewport::-webkit-scrollbar {
+  display: none;
+}
+
+.momentsViewport[data-drifting] {
+  overflow: hidden;
+}
+
+.momentsTrack {
+  --strip-h: clamp(260px, 62vw, 420px);
+  display: flex;
+  align-items: stretch;
+  gap: var(--space-s);
+  width: max-content;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.momentsTrack li {
+  flex-shrink: 0;
+  overflow: hidden;
+  border-radius: var(--radius-s);
+  scroll-snap-align: start;
+}
+
+.momentsTrack img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Same height for every photo; only the width changes with the crop. */
+.tall,
+.square {
+  height: var(--strip-h);
+}
+
+.tall {
+  aspect-ratio: 3 / 4;
+}
+
+.square {
+  aspect-ratio: 1;
+}
+
+/* FAQ preview */
+.faqSection {
+  display: grid;
+  align-content: center;
+  /* --footer-h is measured by the header (see Header.jsx) */
+  min-height: calc(100svh - var(--header-h) - var(--footer-h, 226px));
+}
+
+.faqGrid {
+  display: grid;
+  gap: var(--space-l);
+}
+
+.faqIntro {
+  display: grid;
+  gap: var(--space-s);
+  justify-items: start;
+  align-content: start;
+}
+
+
+@media (min-width: 768px) {
+  .locGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (min-width: 600px) and (max-width: 767px), (min-width: 1100px) {
+  .facts {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-m);
+  }
+}
+
+@media (min-width: 768px) {
+  .introGrid,
+  .rescueGrid {
+    grid-template-columns: 1fr 1.1fr;
+    gap: var(--space-l);
+  }
+}
+
+@media (min-width: 900px) {
+  .introGrid,
+  .rescueGrid {
+    gap: var(--space-xl);
+  }
+
+  .faqGrid {
+    grid-template-columns: 1fr 1.6fr;
+    gap: var(--space-xl);
+  }
+
+  .faqIntro {
+    position: sticky;
+    top: calc(var(--header-h) + var(--space-l));
+  }
+
+  .momentsViewport {
+    --strip-inset: max(var(--gutter), calc((100vw - var(--container)) / 2));
+  }
+}

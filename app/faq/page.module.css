@@ -1,0 +1,124 @@
+.intro {
+  padding-block: var(--space-section);
+}
+
+.intro h1 {
+  font-size: var(--step-4);
+  margin-bottom: var(--space-m);
+}
+
+.topics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2xs);
+}
+
+.topics a {
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  background: var(--sage);
+  font-weight: 600;
+  font-size: var(--step--1);
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.topics a:hover {
+  background: var(--blush);
+}
+
+.groups {
+  display: grid;
+  gap: var(--space-xl);
+  padding-bottom: var(--space-section);
+}
+
+.group {
+  display: grid;
+  gap: var(--space-m);
+}
+
+.contact {
+  background: var(--sage);
+}
+
+.contactGrid {
+  display: grid;
+  gap: var(--space-xl);
+  align-items: start;
+}
+
+.contactCopy {
+  display: grid;
+  gap: var(--space-m);
+  justify-items: start;
+}
+
+.contactCopy h2 {
+  max-width: 13ch;
+}
+
+.contactCopy .lead {
+  color: var(--text-muted);
+}
+
+.channels {
+  display: grid;
+  gap: var(--space-s);
+  width: 100%;
+  margin: var(--space-xs) 0 0;
+}
+
+.channels div {
+  display: grid;
+  gap: 0.1rem;
+  padding-top: var(--space-s);
+  border-top: 1px solid rgba(56, 61, 49, 0.2);
+}
+
+.channels dt {
+  font-weight: 700;
+}
+
+.channels dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.channels a {
+  text-underline-offset: 0.2em;
+}
+
+.contactImg {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: var(--radius-m);
+}
+
+@media (min-width: 768px) {
+  .group {
+    grid-template-columns: 1fr 2fr;
+    gap: var(--space-l);
+    align-items: start;
+  }
+
+  .contactGrid {
+    grid-template-columns: 1.4fr 1fr;
+    gap: var(--space-l);
+  }
+}
+
+@media (min-width: 900px) {
+  .contactGrid {
+    grid-template-columns: 1.5fr 1fr;
+    gap: var(--space-xl);
+  }
+}
+
+@media (min-width: 1024px) {
+  .channels div {
+    grid-template-columns: 11rem 1fr;
+    gap: var(--space-m);
+  }
+}

@@ -1,0 +1,386 @@
+{
+ "hero-laugh": {
+  "width": 968,
+  "height": 1020,
+  "alt": "A guest laughing as a puppy climbs onto her head during a session",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/hero-laugh-480.cd75f1be.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/hero-laugh-960.362ca364.webp"
+   },
+   {
+    "w": 968,
+    "src": "/images/hero-laugh-968.f8dc7f2f.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_d8aeb89416b247579d2c6a066e2b58aa~mv2.jpg"
+ },
+ "hero-white-puppy": {
+  "width": 1179,
+  "height": 1403,
+  "alt": "A fluffy white rescue puppy looking up at the camera",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/hero-white-puppy-480.8e450934.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/hero-white-puppy-960.6b1deb63.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_5933974b29304617abe63b93650503fb~mv2.jpg"
+ },
+ "hero-poodle-hug": {
+  "width": 1429,
+  "height": 2000,
+  "alt": "A guest holding a curly-haired puppy against her cheek by the pool",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/hero-poodle-hug-480.c2569c0e.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_33eb972e4e5343419837bbbffbddbf48~mv2.jpeg"
+ },
+ "pool-pack": {
+  "width": 1125,
+  "height": 1273,
+  "alt": "A guest kneeling by the pool, surrounded by playful rescue puppies",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/pool-pack-480.803b4dde.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/pool-pack-960.e7b215b0.webp"
+   },
+   {
+    "w": 1125,
+    "src": "/images/pool-pack-1125.1ae2d1b7.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_9c5bf31172b24f0595e04cb1554000fd~mv2.png"
+ },
+ "aseman-shelter": {
+  "width": 1320,
+  "height": 863,
+  "alt": "Dogs resting under a wooden pavilion at the Aseman Bali Dog Association shelter",
+  "variants": [
+   {
+    "w": 960,
+    "src": "/images/aseman-shelter-960.1d640fc8.webp"
+   },
+   {
+    "w": 1320,
+    "src": "/images/aseman-shelter-1320.459e79f0.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_c8514317e92740ea8ab75faf662812b9~mv2.jpeg"
+ },
+ "puppy-bw": {
+  "width": 1456,
+  "height": 1534,
+  "alt": "A black and white puppy resting its chin on a cushion",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/puppy-bw-480.7d1403be.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/puppy-bw-960.90616f3d.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_07e0d2520abe40bebe9f9e568e5a8b6e~mv2.jpg"
+ },
+ "canggu-stretch": {
+  "width": 1444,
+  "height": 1528,
+  "alt": "A guest stretching beside the pool in Canggu while puppies wander around her mat",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/canggu-stretch-480.75858b50.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/canggu-stretch-960.cf1b42d4.webp"
+   },
+   {
+    "w": 1444,
+    "src": "/images/canggu-stretch-1444.7367420c.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_8bd3136f4519487eae40ff92f601ae77~mv2.jpg"
+ },
+ "ubud-shala": {
+  "width": 1920,
+  "height": 1072,
+  "alt": "A guest on her mat in the open-air jungle yoga shala in Ubud with puppies nearby",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/ubud-shala-480.324a7bfe.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/ubud-shala-960.ca8845cd.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/ubud-shala-1600.3097dbbc.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_5845fe26a4f84e1d91c9dc7916677a37~mv2.jpg"
+ },
+ "ubud-lunge": {
+  "width": 1179,
+  "height": 1179,
+  "alt": "A guest in a low lunge in the Ubud shala, two puppies playing on the floor",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/ubud-lunge-480.b5e11880.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/ubud-lunge-960.da8a3836.webp"
+   },
+   {
+    "w": 1179,
+    "src": "/images/ubud-lunge-1179.eaea32cb.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_9d454203751144deb1611db347581379~mv2.jpg"
+ },
+ "ubud-play": {
+  "width": 950,
+  "height": 950,
+  "alt": "A guest reaching toward a puppy on the wooden floor of the Ubud shala",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/ubud-play-480.e32e4c82.webp"
+   },
+   {
+    "w": 950,
+    "src": "/images/ubud-play-950.63e9aa55.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_bc6c47694b2d414a839343c651e0806e~mv2.jpg"
+ },
+ "puppy-on-face": {
+  "width": 1179,
+  "height": 1378,
+  "alt": "A guest lying on her back, laughing, with a puppy resting on her forehead",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/puppy-on-face-480.fede2b2d.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/puppy-on-face-960.6da7c079.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_b7afc6691b064e22952dd912b00c1a36~mv2.jpg"
+ },
+ "golden-puppy": {
+  "width": 1179,
+  "height": 1488,
+  "alt": "A guest raising her arms while a golden puppy walks across her mat",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/golden-puppy-480.f1213439.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/golden-puppy-960.677a1161.webp"
+   },
+   {
+    "w": 1179,
+    "src": "/images/golden-puppy-1179.f17113a4.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_a55e7a682a79468bb0ee99ac6e91e453~mv2.jpg"
+ },
+ "jungle-cuddle": {
+  "width": 1330,
+  "height": 2000,
+  "alt": "A guest cheering with a puppy in her arms among tropical plants",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/jungle-cuddle-480.a866914f.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/jungle-cuddle-960.1f23a1c5.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_b1c53b452df94ea285538df8c91a4960~mv2.jpeg"
+ },
+ "nap-together": {
+  "width": 1179,
+  "height": 1309,
+  "alt": "A guest resting her head next to a sleepy puppy on a yoga mat",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/nap-together-480.41fc45a1.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/nap-together-960.f7c20764.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_92aeea7d1a4447fb8c939ccd584c44df~mv2.jpg"
+ },
+ "first-hello": {
+  "width": 1264,
+  "height": 1338,
+  "alt": "A guest greeting a small puppy that is reaching up from her lap",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/first-hello-480.60a5324e.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/first-hello-960.23f49cee.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_c07bab924a644ebebb604465e37b30e1~mv2.jpg"
+ },
+ "namaste": {
+  "width": 1320,
+  "height": 1894,
+  "alt": "A smiling guest with her hands together while a puppy sits on her mat",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/namaste-480.1666a911.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/namaste-960.8c28d725.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_998a6bf57a124a47b535f5576fc81de9~mv2.jpeg"
+ },
+ "two-friends": {
+  "width": 2000,
+  "height": 1330,
+  "alt": "Two friends each cuddling a puppy",
+  "variants": [
+   {
+    "w": 960,
+    "src": "/images/two-friends-960.2b73f437.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/two-friends-1600.4c22f32e.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_2231cfe1530245c29eb3540340f5dabf~mv2.jpeg"
+ },
+ "pool-hug": {
+  "width": 1138,
+  "height": 2000,
+  "alt": "A guest hugging a puppy wearing a little bandana beside the pool",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/pool-hug-480.296421a5.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/pool-hug-960.2e98c6f7.webp"
+   },
+   {
+    "w": 1138,
+    "src": "/images/pool-hug-1138.605adf4f.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_db3d3e79352a46b3bb5ad67eb60e4f89~mv2.jpeg"
+ },
+ "puppy-kisses": {
+  "width": 1179,
+  "height": 1200,
+  "alt": "A guest lying on her mat getting kisses from two puppies",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/puppy-kisses-480.b223a3c3.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/puppy-kisses-960.173cc051.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_612753a584344fd2a465083f272dbcc0~mv2.jpg"
+ },
+ "savasana": {
+  "width": 1179,
+  "height": 1003,
+  "alt": "A guest lying on her mat with a puppy curled up next to her face",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/savasana-480.48636000.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/savasana-960.1406e096.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_b62202b11e6f45708f9b31fc67976117~mv2.jpg"
+ },
+ "pool-flow": {
+  "width": 2000,
+  "height": 1334,
+  "alt": "A small group practising by a long pool in the garden",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/pool-flow-480.b69736a0.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/pool-flow-960.f13f4437.webp"
+   },
+   {
+    "w": 1600,
+    "src": "/images/pool-flow-1600.4d23276f.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_2e52d231f92942218e4463cfcfbcab57~mv2.jpeg"
+ },
+ "garden-pair": {
+  "width": 1366,
+  "height": 2000,
+  "alt": "Two guests by the pool, one holding two puppies in her lap",
+  "variants": [
+   {
+    "w": 480,
+    "src": "/images/garden-pair-480.a7450171.webp"
+   },
+   {
+    "w": 960,
+    "src": "/images/garden-pair-960.9e55da82.webp"
+   },
+   {
+    "w": 1366,
+    "src": "/images/garden-pair-1366.d8a5a033.webp"
+   }
+  ],
+  "source": "https://static.wixstatic.com/media/94827f_9c7e3a0ce4da4e9886155d5e0e3e923b~mv2.jpeg"
+ }
+}

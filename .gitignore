@@ -1,0 +1,15 @@
+# dependencies & build output
+node_modules
+.next
+out
+
+# local-only research material: audit docs, scraped screenshots and original assets (~88 MB).
+# The site only needs the optimised derivatives in public/images.
+docs/
+
+# local tooling
+.vercel
+.env*
+*.log
+.DS_Store
+Thumbs.db

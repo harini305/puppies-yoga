@@ -1,0 +1,92 @@
+.footer {
+  padding-block: var(--space-m) var(--space-s);
+  font-size: var(--step--1);
+}
+
+/* Booking prompt */
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-s) var(--space-m);
+  padding-bottom: var(--space-m);
+}
+
+.ctaTitle {
+  font-size: var(--step-2);
+  color: var(--sage);
+}
+
+/* Keep both booking buttons on one row, even on small phones */
+.cta :global(.btn-row .btn) {
+  flex: 1 1 0;
+  white-space: nowrap;
+}
+
+/* Links: each group is a heading over a single wrapping line of links */
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-s) var(--space-l);
+  padding-block: var(--space-s);
+  border-block: 1px solid rgba(222, 226, 218, 0.2);
+}
+
+.heading {
+  margin-bottom: 0.2rem;
+  font-family: var(--font-body);
+  font-size: var(--step--1);
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--blush);
+}
+
+.group ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem var(--space-m);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.group a {
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.group a:hover,
+.base a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+/* Legal line */
+.base {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-2xs) var(--space-m);
+  padding-top: var(--space-s);
+  color: rgba(222, 226, 218, 0.75);
+}
+
+.legal {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.mark {
+  flex-shrink: 0;
+  width: 20px;
+  height: 22px;
+  color: var(--blush);
+}
+
+.base a {
+  color: var(--sage);
+}

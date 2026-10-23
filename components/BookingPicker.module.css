@@ -1,0 +1,136 @@
+.picker {
+  display: grid;
+  gap: var(--space-m);
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2xs);
+  padding: var(--space-2xs);
+  border-radius: 999px;
+  background: var(--sage);
+  max-width: 520px;
+}
+
+.tab {
+  display: grid;
+  justify-items: center;
+  padding: 0.6rem 1rem;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--olive);
+  font: inherit;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+}
+
+.tab:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.tab[aria-selected="true"] {
+  background: var(--olive);
+  color: var(--sage);
+}
+
+.tabName {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.tabSetting {
+  font-size: var(--step--1);
+  opacity: 0.8;
+}
+
+.panel {
+  display: grid;
+  gap: var(--space-l);
+  padding: var(--space-m);
+  border-radius: var(--radius-m);
+  background: var(--white);
+  animation: panelIn 0.45s var(--ease-out);
+}
+
+@keyframes panelIn {
+  from {
+    opacity: 0;
+    translate: 0 12px;
+  }
+}
+
+.img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: var(--radius-s);
+}
+
+.details {
+  display: grid;
+  gap: var(--space-m);
+  align-content: start;
+}
+
+.details h3 {
+  font-size: var(--step-2);
+}
+
+.details dl {
+  display: grid;
+  gap: var(--space-s);
+  margin: 0;
+}
+
+.details dt {
+  font-weight: 700;
+}
+
+.details dd {
+  margin: 0.15rem 0 0;
+  color: var(--text-muted);
+}
+
+.times {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2xs);
+  margin: 0.4rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.times li {
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background: var(--blush-soft);
+  border: 1px solid var(--blush);
+  color: var(--olive);
+  font-weight: 600;
+  font-size: var(--step--1);
+}
+
+.note {
+  font-size: var(--step--1);
+  color: var(--text-muted);
+}
+
+@media (min-width: 768px) {
+  .panel {
+    grid-template-columns: 1fr 1.1fr;
+  }
+
+  .img {
+    height: 100%;
+    aspect-ratio: auto;
+    min-height: 360px;
+  }
+}
+
+@media (min-width: 900px) {
+  .panel {
+    padding: var(--space-l);
+  }
+}

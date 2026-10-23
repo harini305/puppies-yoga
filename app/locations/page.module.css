@@ -1,0 +1,95 @@
+/* Shares the intro's background, so the intro's bottom padding already separates them. */
+.first {
+  padding-top: 0;
+}
+
+.alt {
+  background: var(--sage);
+}
+
+.grid {
+  display: grid;
+  gap: var(--space-l);
+  align-items: start;
+}
+
+.mosaic {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xs);
+}
+
+.mosaic > div {
+  overflow: hidden;
+  border-radius: var(--radius-s);
+}
+
+.mosaic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main {
+  grid-column: 1 / -1;
+  aspect-ratio: 16 / 11;
+}
+
+.small {
+  aspect-ratio: 1;
+}
+
+.info {
+  display: grid;
+  gap: var(--space-m);
+  justify-items: start;
+}
+
+.info h2 {
+  font-size: var(--step-4);
+}
+
+.details {
+  display: grid;
+  gap: var(--space-s);
+  width: 100%;
+  margin: 0;
+}
+
+.details div {
+  display: grid;
+  gap: 0.15rem;
+  padding-top: var(--space-s);
+  border-top: 1px solid rgba(56, 61, 49, 0.2);
+}
+
+.details dt {
+  font-weight: 700;
+}
+
+.details dd {
+  margin: 0;
+  color: var(--text-muted);
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1.1fr 1fr;
+    gap: var(--space-l);
+  }
+
+  .alt .mosaic {
+    order: 2;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    gap: var(--space-xl);
+  }
+
+  .details div {
+    grid-template-columns: 9.5rem 1fr;
+    gap: var(--space-m);
+  }
+}
